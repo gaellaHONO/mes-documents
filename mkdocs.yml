@@ -1,4 +1,4 @@
-site_name: Mon Super Espace Pro
+site_name: Mon Application Documents
 theme:
   name: material
   palette:
@@ -6,13 +6,9 @@ theme:
       scheme: default
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: Mode sombre
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
-features:
-  - navigation.tabs
-  - search.highlight
-  - search.suggest
+        name: Mode clair
